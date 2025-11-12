@@ -1,7 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.tsx'
 import Header from './components/header.tsx'
 import Hero from './components/hero.tsx'
 import AboutSection from './components/about-section.tsx'
@@ -13,7 +12,7 @@ import Footer from './components/footer.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    
     <Header />
     <Hero />
     <AboutSection />
